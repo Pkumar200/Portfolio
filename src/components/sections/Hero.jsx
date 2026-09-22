@@ -97,7 +97,7 @@ export default function Hero() {
             </h1>
 
             <p style={{ marginTop: 26, fontSize: 18, color: c.inkSoft, maxWidth: 560, lineHeight: 1.6 }}>
-              Full Stack Developer with hands-on production experience building responsive web applications using React, Next.js, Node.js, Express.js, and PostgreSQL. I design and integrate RESTful APIs, build database-driven applications, and deploy containerized apps on AWS.
+              B.E. Artificial Intelligence & Machine Learning graduate with 1+ year of professional experience as a Full-Stack Developer, building and deploying production applications using React, Next.js, Node.js, Python, FastAPI, SQL, AWS, and Docker. Currently expanding my expertise in Pandas, data analysis, and machine learning to build intelligent, data-driven solutions.
             </p>
 
             <div style={{ marginTop: 32 }}>

@@ -86,8 +86,6 @@ export const skillGroups = [
     items: [
       { name: "Python", icon: "/icons/Python-Light.svg" },
       { name: "JavaScript", icon: "/icons/JavaScript.svg" },
-      { name: "C++", icon: "/icons/CPP.svg" },
-      { name: "TypeScript", icon: "/icons/TypeScript.svg" },
     ]
   },
   {
@@ -97,7 +95,6 @@ export const skillGroups = [
       { name: "CSS3", icon: "/icons/CSS.svg" },
       { name: "Next.js 14", icon: "/icons/NextJS-Light.svg" },
       { name: "React", icon: "/icons/React-Light.svg" },
-      { name: "React Native", icon: "/icons/React-Light.svg" },
       { name: "Tailwind CSS", icon: "/icons/TailwindCSS-Light.svg" },
     ]
   },
@@ -106,17 +103,37 @@ export const skillGroups = [
     items: [
       { name: "Node.js", icon: "/icons/NodeJS-Light.svg" },
       { name: "Express.js", icon: "/icons/ExpressJS-Light.svg" },
-      { name: "FastAPI", icon: "/icons/FastAPI.svg" },
       { name: "REST APIs", icon: "/icons/Postman.svg" },
+      { name: "FastAPI", icon: "/icons/FastAPI.svg" },
     ]
   },
   {
-    label: "Databases",
+    label: "SQL & Databases",
     items: [
+      { name: "SQL", icon: "/icons/SQLite.svg" },
       { name: "MySQL", icon: "/icons/MySQL-Light.svg" },
       { name: "PostgreSQL", icon: "/icons/PostgreSQL-Light.svg" },
       { name: "Elasticsearch", icon: "/icons/Elasticsearch-Light.svg" },
       { name: "Supabase", icon: "/icons/Supabase-Light.svg" },
+    ]
+  },
+  {
+    label: "Data Analysis",
+    items: [
+      { name: "Pandas", icon: "/icons/Python-Light.svg" },
+      { name: "NumPy", icon: "/icons/Python-Light.svg" },
+      { name: "Exploratory Data Analysis", icon: "/icons/Anaconda-Light.svg" },
+      { name: "Data Cleaning", icon: "/icons/Anaconda-Light.svg" },
+      { name: "Data Preprocessing", icon: "/icons/Anaconda-Light.svg" },
+      { name: "Statistical Analysis", icon: "/icons/R-Light.svg" },
+    ]
+  },
+  {
+    label: "Data Visualization",
+    items: [
+      { name: "Matplotlib", icon: "/icons/Python-Light.svg" },
+      { name: "Seaborn", icon: "/icons/Python-Light.svg" },
+      { name: "Power BI", icon: "/icons/Grafana-Light.svg" },
     ]
   },
   {
@@ -125,17 +142,17 @@ export const skillGroups = [
       { name: "AWS", icon: "/icons/AWS-Light.svg" },
       { name: "Docker", icon: "/icons/Docker.svg" },
       { name: "CI/CD", icon: "/icons/GithubActions-Light.svg" },
-      { name: "Git", icon: "/icons/Git.svg" },
-      { name: "GitHub", icon: "/icons/Github-Light.svg" },
     ]
   },
   {
-    label: "AI / GenAI & Tools",
+    label: "Tools",
     items: [
-      { name: "OpenAI API", icon: "/icons/Chatgpt-Light.svg" },
-      { name: "Claude", icon: "/icons/Claude-Light.svg" },
-      { name: "Vercel", icon: "/icons/Vercel-Light.svg" },
-      { name: "n8n", icon: "/icons/Workers-Light.svg" },
+      { name: "Git", icon: "/icons/Git.svg" },
+      { name: "GitHub", icon: "/icons/Github-Light.svg" },
+      { name: "WhatsApp Business API", icon: "/icons/Gmail-Light.svg" },
+      { name: "Claude Code", icon: "/icons/Claude-Light.svg" },
+      { name: "Cursor IDE", icon: "/icons/VSCode-Light.svg" },
+      { name: "Jupyter Notebook", icon: "/icons/Anaconda-Light.svg" },
     ]
   }
 ];

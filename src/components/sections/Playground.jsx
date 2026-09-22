@@ -11,9 +11,9 @@ import congratulationsAnimation from "../../assets/congratulations.json";
 const CATEGORIES = [
   { id: "frontend", label: "Frontend", match: ["Frontend", "Languages"] },
   { id: "backend", label: "Backend", match: ["Backend"] },
-  { id: "database", label: "Database", match: ["Database & Cloud"] },
-  { id: "deployment", label: "Deployment", match: ["DevOps & Tools"] },
-  { id: "ai", label: "AI", match: ["AI & Core"] },
+  { id: "database", label: "Database", match: ["SQL & Databases"] },
+  { id: "deployment", label: "Deployment", match: ["Cloud & DevOps", "Tools"] },
+  { id: "ai", label: "Data & AI", match: ["Data Analysis", "Data Visualization"] },
 ];
 
 const allSkills = skillGroups.flatMap(g =>

@@ -12,13 +12,13 @@ export default function About() {
           {/* Left Column: Elegant Typography */}
           <Reveal style={{ display: "flex", flexDirection: "column", gap: 32, justifyContent: "center" }}>
             <p style={{ margin: 0, fontSize: 24, lineHeight: 1.5, color: c.ink, fontWeight: 500, letterSpacing: "-0.01em" }}>
-              I'm a <span style={{ color: c.mossDeep, fontStyle: "italic", ...serif }}>Full Stack Developer</span> with hands-on production experience across React, Next.js, Node.js, Express.js, and PostgreSQL.
+              I'm a <span style={{ color: c.mossDeep, fontStyle: "italic", ...serif }}>B.E. Artificial Intelligence &amp; Machine Learning</span> graduate with 1+ year of professional experience as a Full-Stack Developer.
             </p>
             <p style={{ margin: 0, fontSize: 17, lineHeight: 1.7, color: c.inkSoft }}>
-              I design and integrate RESTful APIs, build database-driven applications, and deploy containerized applications using Docker and AWS. I have a strong grounding in JavaScript, Python, SQL, and Git/GitHub, with experience building and optimizing end-to-end applications.
+              I build and deploy production applications using React, Next.js, Node.js, Python, FastAPI, SQL, AWS, and Docker — designing REST APIs, database-driven applications, cloud deployments, and AI/LLM integrations.
             </p>
             <p style={{ margin: 0, fontSize: 17, lineHeight: 1.7, color: c.inkSoft }}>
-              I've built full-stack products in production — from multi-role CRMs with JWT-secured REST APIs to AI-powered document processing pipelines — and I'm graduating with a <strong style={{ color: c.ink, fontWeight: 600 }}>B.E. in AI &amp; ML</strong> from Jyothy Institute of Technology.
+              I'm currently expanding my expertise in <strong style={{ color: c.ink, fontWeight: 600 }}>Python, Pandas, data analysis, and machine learning</strong> to build intelligent, data-driven solutions.
             </p>
           </Reveal>
 
@@ -79,8 +79,8 @@ export default function About() {
             <div style={{ background: "rgba(255,255,255,0.4)", backdropFilter: "blur(12px)", border: `1px solid ${c.line}`, borderRadius: 24, padding: 24, display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
               <div>
                 <span style={{ ...mono, fontSize: 10, textTransform: "uppercase", letterSpacing: 1.5, color: c.clay, fontWeight: 600 }}>Core Focus</span>
-                <h4 style={{ fontSize: 20, fontWeight: 600, color: c.ink, margin: "12px 0 4px 0", letterSpacing: "-0.01em" }}>Full Stack & Cloud</h4>
-                <p style={{ color: c.inkSoft, fontSize: 13, margin: 0, lineHeight: 1.5 }}>Production APIs, containerized deployments, and AI-assisted document pipelines.</p>
+                <h4 style={{ fontSize: 20, fontWeight: 600, color: c.ink, margin: "12px 0 4px 0", letterSpacing: "-0.01em" }}>Full Stack & Data/AI</h4>
+                <p style={{ color: c.inkSoft, fontSize: 13, margin: 0, lineHeight: 1.5 }}>Production APIs and cloud deployments, now expanding into data analysis and machine learning.</p>
               </div>
             </div>
 
