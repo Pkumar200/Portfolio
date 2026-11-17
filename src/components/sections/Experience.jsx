@@ -46,7 +46,103 @@ export default function Experience() {
           {/* Timeline Milestones */}
           <div style={{ display: "flex", flexDirection: "column", gap: 60, position: "relative" }}>
 
-            {/* Milestone 2: SDE (Full-Time) - CURRENT ROLE */}
+            {/* Milestone 3: Software Engineer at Afto Dynamo */}
+            <div style={{ display: "grid", gridTemplateColumns: "140px 1fr", gap: 48, position: "relative" }} className="kk-milestone-row">
+
+              <div style={{ position: "relative", zIndex: 2, display: "flex", flexDirection: "column", alignItems: "center", paddingTop: 20 }} className="kk-milestone-left">
+                <div style={{
+                  width: 48,
+                  height: 48,
+                  borderRadius: "50%",
+                  background: c.mossDeep,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  color: c.paper,
+                  zIndex: 2,
+                  boxShadow: `0 0 0 10px ${c.bgDeep}`
+                }} className="kk-milestone-dot">
+                  <Briefcase size={20} strokeWidth={2} />
+                </div>
+
+                <div style={{
+                  textAlign: "center",
+                  marginTop: 24,
+                  background: c.paper,
+                  padding: "8px 16px",
+                  borderRadius: 20,
+                  boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
+                  border: `1px solid ${c.line}`,
+                  position: "relative",
+                  zIndex: 5
+                }} className="kk-milestone-date">
+                  <div style={{ ...mono, fontSize: 11, color: c.clay, fontWeight: 700, letterSpacing: 1, textTransform: "uppercase", marginBottom: 2 }}>Jun 2026</div>
+                  <div style={{ ...serif, fontSize: 15, color: c.ink, fontWeight: 600 }}>Sep 2026</div>
+                </div>
+              </div>
+
+              <div className="kk-milestone-card-container">
+                <Reveal>
+                  <div style={{
+                    background: c.paper,
+                    border: `1px solid ${c.line}`,
+                    borderRadius: 16,
+                    padding: 28,
+                    boxShadow: "0 8px 30px rgba(42,39,30,0.06)",
+                    position: "relative"
+                  }}>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: 10 }}>
+                      <span style={{
+                        background: c.mossDeep,
+                        color: c.paper,
+                        fontSize: 10,
+                        fontWeight: 600,
+                        letterSpacing: 1.5,
+                        ...mono,
+                        padding: "4px 8px",
+                        borderRadius: 4,
+                        textTransform: "uppercase"
+                      }}>
+                        Full-Time
+                      </span>
+                      <div style={{ display: "flex", alignItems: "center", gap: 6, ...mono, fontSize: 12, color: c.inkFaint }}>
+                        <Calendar size={13} />
+                        Jun 2026 - Sep 2026
+                      </div>
+                    </div>
+
+                    <h3 style={{ ...serif, fontSize: 22, fontWeight: 600, marginTop: 14, color: c.ink }}>
+                      Software Engineer
+                    </h3>
+                    <div style={{ color: c.clay, fontWeight: 600, marginTop: 4, fontSize: 14, ...mono }}>
+                      Afto Dynamo Technologies Inc
+                    </div>
+
+                    <p style={{ color: c.inkSoft, fontSize: 14.5, lineHeight: 1.6, marginTop: 14, marginBottom: 18 }}>
+                      Worked on a customer-facing e-commerce platform, contributing to product, inventory, and customer engagement.
+                    </p>
+
+                    <div style={{ display: "flex", flexDirection: "column", gap: 8, marginBottom: 20 }}>
+                      {[
+                        "Implemented marketing unsubscribe and opt-out for bulk email campaigns, checking each customer’s unsubscribe status in the database and excluding opted-out customers before send",
+                        "Implemented the same unsubscribe and opt-out flow for WhatsApp marketing campaigns so communication preferences are respected across channels",
+                        "Built product and inventory management, including bundle products that group individual items into a single offering",
+                        "Contributed to backend logic and database integrations for product, inventory, customer preferences, and marketing communication workflows"
+                      ].map((item, idx) => (
+                        <div key={idx} style={{ display: "flex", gap: 8, fontSize: 13.5, color: c.inkSoft, lineHeight: 1.4 }}>
+                          <span style={{ color: c.clay }}>▸</span>
+                          <span>{item}</span>
+                        </div>
+                      ))}
+                    </div>
+
+                    <ChipRow items={["E-commerce", "Inventory", "Email campaigns", "WhatsApp", "Database"]} bg="rgba(164,89,47,0.08)" fg={c.clay} />
+                  </div>
+                </Reveal>
+              </div>
+            </div>
+
+            {/* Milestone 2: Full-Stack Developer at NICSAN */}
             <div style={{ display: "grid", gridTemplateColumns: "140px 1fr", gap: 48, position: "relative" }} className="kk-milestone-row">
               
               {/* Left Column: Icon and Date */}
@@ -80,7 +176,7 @@ export default function Experience() {
                   zIndex: 5
                 }} className="kk-milestone-date">
                   <div style={{ ...mono, fontSize: 11, color: c.clay, fontWeight: 700, letterSpacing: 1, textTransform: "uppercase", marginBottom: 2 }}>Aug 2025</div>
-                  <div style={{ ...serif, fontSize: 15, color: c.ink, fontWeight: 600 }}>Aug 2026</div>
+                  <div style={{ ...serif, fontSize: 15, color: c.ink, fontWeight: 600 }}>May 2026</div>
                 </div>
               </div>
 
@@ -112,7 +208,7 @@ export default function Experience() {
                       </span>
                       <div style={{ display: "flex", alignItems: "center", gap: 6, ...mono, fontSize: 12, color: c.inkFaint }}>
                         <Calendar size={13} />
-                        Aug 2025 - Aug 2026
+                        Aug 2025 - May 2026
                       </div>
                     </div>
 
